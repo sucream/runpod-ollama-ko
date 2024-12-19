@@ -1,0 +1,18 @@
+{
+  "input": {
+    "method_name": "api/generate",
+    "input": {
+      "model": "qwen2.5:14b-instruct-q8_0",
+      "params": {
+        "prompt": [
+          "Why the sky is blue?"
+        ],
+        "stream": true,
+        "max_tokens": 32,
+        "temperature": 0.7,
+        "top_p": 1.0,
+        "top_k": 40
+      }
+    }
+  }
+}
