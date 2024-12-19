@@ -28,7 +28,7 @@ def handler(job: HandlerJob):
     model = sys.argv[1]
 
     response = requests.post(
-        url=f"{base_url}{input['method']}",
+        url=f"{base_url}{input['api']}",
         headers={"Content-Type": "application/json"},
         json=input["json"],
     )
