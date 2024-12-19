@@ -23,7 +23,7 @@ def handler(job: HandlerJob):
     input = job["input"]
 
     # streaming is not supported in serverless mode
-    input["input"]["stream"] = False
+    input["stream"] = False
     print(sys.argv)
     model = sys.argv[1]
 
