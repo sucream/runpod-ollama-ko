@@ -19,7 +19,7 @@ class HandlerJob(TypedDict):
 
 
 def handler(job: HandlerJob):
-    base_url = "http://0.0.0.0:11434"
+    base_url = "http://localhost:11434"
     input = job["input"]
 
     # streaming is not supported in serverless mode
